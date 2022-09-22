@@ -167,16 +167,16 @@ Resources
 https://cloud.google.com/dataproc-serverless/docs/concepts/properties#custom_spark_properties
 
 #### Checklist
-[+] service account with dataproc/worker permissions
-[+] add `src/entrypoint.py`
-[+] instal dependencies in Docker `procps tini openjdk-11-jre-headless`
-[+] set `ENV PYSPARK_PYTHON /usr/local/bin/python`
+[+] service account with dataproc/worker permissions  
+[+] add `src/entrypoint.py`  
+[+] instal dependencies in Docker `procps tini openjdk-11-jre-headless`  
+[+] set `ENV PYSPARK_PYTHON /usr/local/bin/python`  
 
-[-] (optional) subnet z otwarciem portów na komunikację pod-pod
-[-] (optional) custom Kedro context
+[-] (optional) subnet z otwarciem portów na komunikację pod-pod  
+[-] (optional) custom Kedro context  
 
-[+] set PySpark version 3.2.2 (default is 3.3.0 which is incompatible https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions)
-[+] Spark user in dockerfile (?)
+[+] set PySpark version 3.2.2 (default is 3.3.0 which is incompatible https://cloud.google.com/dataproc-serverless/docs/concepts/versions/spark-runtime-versions)  
+[+] Spark user in dockerfile (?)  
 
 #### Adjust the pipeline code
 [+] (optional) Upload file to GCS, adjust Data Catalog for input data
